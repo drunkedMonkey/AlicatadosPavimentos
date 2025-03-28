@@ -7,8 +7,8 @@ export const siteSlogan = "The best pies in the galaxy!";
 export const themeColor = "#FF0000";
 
 export const phone = {
-	href: "tel:+123456789",
-	label: "(123) 456-789",
+	href: "tel:676247042",
+	label: "676 24 70 42",
 };
 
 export const email = {
@@ -16,13 +16,13 @@ export const email = {
 	label: "info@astropie.com",
 };
 
-export const address = {
-	street: "1234 Space Street",
-	city: "Galaxy City",
-	zip: "12345",
-	state: "Milky Way",
-	country: "Space",
-};
+// export const address = {
+// 	street: "1234 Space Street",
+// 	city: "Galaxy City",
+// 	zip: "12345",
+// 	state: "Milky Way",
+// 	country: "Space",
+// };
 
 export const socialMedia = {
 	facebook: {

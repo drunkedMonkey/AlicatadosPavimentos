@@ -1,11 +1,3 @@
-# AstroPie
-
-AstroPie is a free theme for the Astro framework, designed to provide a beautiful and functional starting point for your next restaurant or bistro website. Whether you're running an Italian restaurant, a cozy bistro, or any other type of dining establishment, AstroPie has you covered with its clean design and easy-to-use components.
-
-## 🌟 About AstroPie
-
-AstroPie is perfect for restaurant owners, developers, and designers who want to quickly set up a stylish and responsive website. It leverages modern web technologies to ensure a smooth and performant user experience.
-
 ## 🛠️ Technologies Used
 
 -   **Astro**: The core framework for building fast, content-focused websites.
@@ -16,64 +8,32 @@ AstroPie is perfect for restaurant owners, developers, and designers who want to
 
 ## 🚀 Installation and Deployment
 
-To get started with AstroPie, follow these steps:
 
-1. **Clone AstroPie**:
-
-    ```sh
-    git clone https://github.com/wpinfusion/AstroPie.git
-    ```
-
-2. **Install Dependencies**:
+1. **Install Dependencies**:
 
     ```sh
     npm install
     ```
 
-3. **Run Development Server**:
+2. **Run Development Server**:
 
     ```sh
     npm run dev
     ```
 
-4. **Build for Production**:
+3. **Build for Production**:
 
     ```sh
     npm run build
     ```
 
-## 📂 Project Structure
-
-Inside of your AstroPie project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   ├── pages/
-│   │   ├── index.astro
-│   │   ├── about-us.astro
-│   │   ├── menu.astro
-│   │   ├── gallery.astro
-│   │   ├── contact.astro
-│   │   └── book.astro
-│   └── styles/
-└── package.json
-```
 
 ## 📄 Premade Pages
 
 -   Home: index.astro
 -   About Us: about-us.astro
--   Menu: menu.astro
 -   Gallery: gallery.astro
 -   Contact: contact.astro
--   Book a Table: book.astro
 
 ## 🧩 Available Components
 
@@ -241,7 +201,3 @@ A component for displaying a wide image.
 ```astro
 <WideImage src={importedImage} alt="alt description" />
 ```
-
-## 👀 Stuck?
-
-If you have any questions or need help with AstroPie, feel free to reach out to me at info@wpinfusion.com, or open an issue on the [AstroPie GitHub repository](https://github.com/wpinfusion/AstroPie)

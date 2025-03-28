@@ -2,55 +2,134 @@
 	{
 		"id": 1,
 		"title": "pexels-adrienn",
-		"image": "/src/assets/images/gallery/pexels-adrienn-638530-1537635.jpg",
+		"image": "/src/assets/images/gallery/img1.jpeg",
 		"alt": "pexels-adrienn-638530-1537635"
 	},
 	{
 		"id": 2,
 		"title": "pexels-annija-mieze",
-		"image": "/src/assets/images/gallery/pexels-annija-mieze-427042079-15197931.jpg",
+		"image": "/src/assets/images/gallery/img2.jpeg",
 		"alt": "pexels-annija-mieze-427042079-15197931"
 	},
 	{
 		"id": 3,
 		"title": "pexels-enginakyurt",
-		"image": "/src/assets/images/gallery/pexels-enginakyurt-1487511.jpg",
+		"image": "/src/assets/images/gallery/img3.jpeg",
 		"alt": "pexels-enginakyurt-1487511"
 	},
 	{
 		"id": 4,
 		"title": "pexels-fariphotography",
-		"image": "/src/assets/images/gallery/pexels-fariphotography-905847.jpg",
+		"image": "/src/assets/images/gallery/img4.jpeg",
 		"alt": "pexels-fariphotography-905847"
 	},
 	{
 		"id": 5,
 		"title": "pexels-narda-yescas",
-		"image": "/src/assets/images/gallery/pexels-narda-yescas-724842-1566837.jpg",
+		"image": "/src/assets/images/gallery/img5.jpeg",
 		"alt": "pexels-narda-yescas-724842-1566837"
 	},
 	{
 		"id": 6,
 		"title": "pexels-pixabay",
-		"image": "/src/assets/images/gallery/pexels-pixabay-262978.jpg",
+		"image": "/src/assets/images/gallery/img6.jpeg",
 		"alt": "pexels-pixabay-262978"
 	},
 	{
 		"id": 7,
 		"title": "pexels-rachel-claire",
-		"image": "/src/assets/images/gallery/pexels-rachel-claire-5531424.jpg",
+		"image": "/src/assets/images/gallery/img7.jpeg",
 		"alt": "pexels-rachel-claire-5531424"
 	},
 	{
 		"id": 8,
 		"title": "pexels-vlah",
-		"image": "/src/assets/images/gallery/pexels-vlah-3084550.jpg",
+		"image": "/src/assets/images/gallery/img8.jpeg",
 		"alt": "pexels-vlah-3084550"
 	},
 	{
 		"id": 9,
 		"title": "pexels-wildlittlethingsphoto",
-		"image": "/src/assets/images/gallery/pexels-wildlittlethingsphoto-696218.jpg",
+		"image": "/src/assets/images/gallery/img9.jpeg",
+		"alt": "pexels-wildlittlethingsphoto-696218"
+	},
+	{
+		"id": 10,
+		"title": "pexels-wildlittlethingsphoto",
+		"image": "/src/assets/images/gallery/img10.jpeg",
+		"alt": "pexels-wildlittlethingsphoto-696218"
+	},
+	{
+		"id": 11,
+		"title": "pexels-wildlittlethingsphoto",
+		"image": "/src/assets/images/gallery/img11.jpeg",
+		"alt": "pexels-wildlittlethingsphoto-696218"
+	},
+	{
+		"id": 12,
+		"title": "pexels-wildlittlethingsphoto",
+		"image": "/src/assets/images/gallery/img12.jpeg",
+		"alt": "pexels-wildlittlethingsphoto-696218"
+	},
+	{
+		"id": 13,
+		"title": "pexels-wildlittlethingsphoto",
+		"image": "/src/assets/images/gallery/img13.jpeg",
+		"alt": "pexels-wildlittlethingsphoto-696218"
+
+	},
+	{
+		"id": 14,
+		"title": "pexels-wildlittlethingsphoto",
+		"image": "/src/assets/images/gallery/img14.jpeg",
+		"alt": "pexels-wildlittlethingsphoto-696218"
+	},
+	{
+		"id": 15,
+		"title": "pexels-wildlittlethingsphoto",
+		"image": "/src/assets/images/gallery/img15.jpeg",
+		"alt": "pexels-wildlittlethingsphoto-696218"
+	},
+	{
+		"id": 16,
+		"title": "pexels-wildlittlethingsphoto",
+		"image": "/src/assets/images/gallery/img16.jpeg",
+		"alt": "pexels-wildlittlethingsphoto-696218"
+	},
+	{
+		"id": 17,
+		"title": "pexels-wildlittlethingsphoto",
+		"image": "/src/assets/images/gallery/img17.jpeg",
+		"alt": "pexels-wildlittlethingsphoto-696218"
+	},
+	{
+		"id": 18,
+		"title": "pexels-wildlittlethingsphoto",
+		"image": "/src/assets/images/gallery/img18.jpeg",
+		"alt": "pexels-wildlittlethingsphoto-696218"
+	},
+	{
+		"id": 19,
+		"title": "pexels-wildlittlethingsphoto",
+		"image": "/src/assets/images/gallery/img19.jpeg",
+		"alt": "pexels-wildlittlethingsphoto-696218"
+	},
+	{
+		"id": 20,
+		"title": "pexels-wildlittlethingsphoto",
+		"image": "/src/assets/images/gallery/img20.jpeg",
+		"alt": "pexels-wildlittlethingsphoto-696218"
+	},
+	{
+		"id": 21,
+		"title": "pexels-wildlittlethingsphoto",
+		"image": "/src/assets/images/gallery/img21.jpeg",
+		"alt": "pexels-wildlittlethingsphoto-696218"
+	},
+	{
+		"id": 22,
+		"title": "pexels-wildlittlethingsphoto",
+		"image": "/src/assets/images/gallery/img22.jpeg",
 		"alt": "pexels-wildlittlethingsphoto-696218"
 	}
 ]

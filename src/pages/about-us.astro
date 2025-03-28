@@ -3,86 +3,120 @@ import Layout from "~/layouts/Layout.astro";
 import Section from "~/components/Section.astro";
 import Hero from "~/components/Hero.astro";
 import { Picture } from "astro:assets";
-import Badge from "~/components/Badge.astro";
-import Button from "~/components/Button.astro";
-import ButtonCallUs from "~/components/ButtonCallUs.astro";
 import Article from "~/components/Article.astro";
+import Obra from "~/assets/images/obra.jpeg";
 
-// Images
-import PizzaHero from "~/assets/images/pizza-hero.png";
 ---
 
+<style>
+  .imagen-obra {
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+  }
+
+  .hexagon-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  }
+</style>
+
 <Layout>
-	<Section class:list={"bg-white"}>
-		<Hero>
-			<div slot="hero-content-left" class="prose max-w-none max-lg:order-1">
-				<Badge title="il ristorante italiana" />
-				<h1 class="font-black">Real Italian food in a real Italian restaurant...</h1>
+  <Section class:list={"bg-white"}>
+    <Hero>
+      <div slot="hero-content-left" class="prose max-w-none max-lg:order-1">
+        <h1 class="font-black">¿Quién soy?</h1>
 
-				<p>
-					Experience the taste of Italy with our authentic dishes made from the finest ingredients. Indulge in
-					our wide variety of pizzas, pastas, and desserts, all crafted with love and tradition. Whether
-					you're dining in or taking out, we promise a memorable culinary experience.
-				</p>
+        <p>
+          Soy <strong>Eduardo López</strong>, un profesional con más de <strong
+            >30 años de experiencia</strong
+          > en el sector de la construcción, especializado en alicatados y pavimentos.
+          A lo largo de mi carrera, he trabajado en todo tipo de proyectos, desde
+          pequeñas reformas hasta grandes obras, siempre con el mismo compromiso,
+          dedicación y atención al detalle para ofrecer resultados de la más alta
+          calidad.
+        </p>
+      </div>
+      <div slot="hero-content-right">
+        <Picture
+          class:list={"mx-auto"}
+          src={Obra}
+          height={600}
+          formats={["avif", "webp"]}
+          alt="A description of my image."
+          loading={"eager"}
+          fetchpriority={"high"}
+        />
+      </div>
+    </Hero>
+  </Section>
 
-				<span class="text-brand-green font-medium">✔ We also deliver</span>
+  <Section class:list={"bg-white"}>
+    <Article>
+      <h2>Bienvenido a Alicatados y Pavimentos - Eduardo López</h2>
+      <p>
+        Ubicados en el corazón de la provincia de Alicante, ofrecemos un
+        servicio profesional y cercano, especializado en la colocación de
+        azulejos y pavimentos. Desde el primer contacto hasta la finalización de
+        la obra, nuestro objetivo es superar tus expectativas, cuidando cada
+        detalle para que el resultado hable por sí solo.
+      </p>
 
-				<div class="mt-8 flex items-center gap-x-8">
-					<Button url="/book">Book now</Button>
-					<ButtonCallUs />
-				</div>
-			</div>
-			<div slot="hero-content-right">
-				<Picture
-					class:list={"mx-auto"}
-					src={PizzaHero}
-					height={600}
-					formats={["avif", "webp"]}
-					alt="A description of my image."
-					loading={"eager"}
-					fetchpriority={"high"}
-				/>
-			</div>
-		</Hero>
-	</Section>
+      <h3>Nuestra Historia</h3>
+      <p>
+        Con más de 30 años en el sector, este proyecto nació de la pasión por un
+        trabajo bien hecho y el amor por el oficio. A lo largo de estas tres
+        décadas, he transformado hogares, negocios y espacios, dejando siempre
+        un sello de calidad y confianza en cada uno de ellos.
+      </p>
 
-	<Section class:list={'bg-white'}>
-		<Article>
-			<h2>Welcome to AstroPie</h2>
-			<p>
-				Nestled in the heart of the city, <strong>AstroPie</strong> offers an authentic Italian dining experience
-				like no other. From the moment you step through our doors, you'll be transported to the vibrant streets of
-				Italy, where good food and great company are at the center of life.
-			</p>
+      <h3>Nuestra Filosofía</h3>
+      <blockquote>"Un buen trabajo dura toda la vida."</blockquote>
+      <p>
+        En cada proyecto, apostamos por la calidad de los materiales, la
+        precisión en la ejecución y un trato cercano y honesto con nuestros
+        clientes. Sabemos que cada reforma es importante, por eso la tratamos
+        como si fuera para nuestra propia casa.
+      </p>
 
-			<h3>Our Story</h3>
-			<p>
-				Founded in <em>1998</em>, our family-owned restaurant has always been a labor of love. Inspired by the
-				recipes passed down through generations, we bring the <u>rich culinary heritage</u> of Italy to your plate.
-				Every dish tells a story, and every meal is a celebration of flavor.
-			</p>
+      <h4>¿Qué nos hace especiales?</h4>
+      <ul>
+        <li>
+          <strong>Experiencia:</strong> Más de 30 años en el sector.
+        </li>
+        <li>
+          <strong>Calidad:</strong> Materiales de primera y acabados impecables.
+        </li>
+        <li>
+          <strong>Confianza:</strong> Trato directo y transparente.
+        </li>
+        <li>
+          <strong>Compromiso:</strong> Cumplimos plazos y cuidamos cada detalle.
+        </li>
+      </ul>
 
-			<h3>Our Philosophy</h3>
-			<blockquote>"The secret ingredient is always love."</blockquote>
-			<p>
-				At AstroPie, we believe in the simple joy of fresh ingredients, time-honored techniques, and a
-				passion for creating memorable meals. From our hand-rolled pasta to our wood-fired pizzas, every bite is
-				crafted with care.
-			</p>
-
-			<h4>What Makes Us Special?</h4>
-			<ul>
-				<li><strong>Authenticity:</strong> Traditional recipes, just like Nonna used to make.</li>
-				<li><strong>Fresh Ingredients:</strong> Locally sourced produce and imported Italian staples.</li>
-				<li><strong>Warm Atmosphere:</strong> A place where everyone feels like family.</li>
-			</ul>
-
-			<h3>Join Us</h3>
-			<p>
-				Whether you're celebrating a special occasion or simply indulging in the pleasures of Italian cuisine, <strong
-					>AstroPie</strong
-				> is the perfect destination. <em>Come for the food, stay for the memories.</em>
-			</p>
-		</Article>
-	</Section>
+      <h3>Contacta con nosotros</h3>
+      <p>
+        Ya sea para una pequeña reforma, un cambio de suelo o un gran proyecto,
+        estaremos encantados de ayudarte a transformar tu espacio.
+        <br />
+        <a
+          href="tel:676247042"
+          class="text-brand-red text-xl font-semibold no-underline"
+          >📞 Llámanos: 676 24 70 42</a
+        >
+        <br />
+        <a
+          href="mailto:eduardolopezruiz77@gmail.com"
+          class="text-brand-red text-xl font-semibold no-underline"
+          >📩 Escríbenos: contacto@eduardolopez.com</a
+        >
+      </p>
+    </Article>
+  </Section>
 </Layout>

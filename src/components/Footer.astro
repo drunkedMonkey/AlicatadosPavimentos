@@ -4,18 +4,46 @@ const currentYear = new Date().getFullYear();
 import { siteName } from "~/data/config";
 ---
 
+<style>
+  .bg-white-alacant {
+    background-color: #e7e7e7;
+  }
+  .bg-blue-alacant {
+    background-color: #0f47af;
+  }
+</style>
+
 <footer class="bg-brand-green text-white">
-	<div class="container pt-16 pb-8">
-		<p class="text-center font-bold text-4xl text-white">Astro<span class="text-brand-red bg-white px-3 ml-1 rounded-lg">Pie</span></p>
-		<nav class="flex flex-col sm:flex-row items-center justify-center gap-x-12 gap-y-3 font-medium mt-6" aria-label="Footer">
-			{
-				menuMain.map((item) => (
-					<a href={item.url} class="hover:underline">
-						{item.name}
-					</a>
-				))
-			}
-		</nav>
-		<p class="mt-10 text-center text-sm">&copy; {currentYear} {siteName}. All rights reserved. <a class="underline" href="/privacy-policy">Privacy policy</a></p>
-	</div>
+  <div class="container pt-16 pb-8">
+    <p class="text-center font-bold text-4xl text-white">
+      Alicatados y pavimentos<span
+        class="text-brand-red bg-white-alacant px-3 ml-1 rounded-lg">Eduardo López</span
+      >
+    </p>
+    <nav
+      class="flex flex-col sm:flex-row items-center justify-center gap-x-12 gap-y-3 font-medium mt-6"
+      aria-label="Footer"
+    >
+      {
+        menuMain.map((item) => (
+          <a href={item.url} class="hover:underline">
+            {item.name}
+          </a>
+        ))
+      }
+    </nav>
+    <p class="mt-10 text-center text-sm">
+      &copy; {currentYear} Alicatados y Pavimentos Eduardo López Ruíz. CIF: 52777157-T
+      <br />
+      <a
+        href="mailto:eduardolopezruiz77@gmail.com"
+        class="underline text-brand-green"
+        <a
+        href="mailto:eduardolopezruiz77@gmail.com"
+        class="underline text-brand-green"
+        ><span class="text-white">Email: eduardolopezruiz77@gmail.com</span></a
+      >
+      <a href="tel:676247042" class="text-white">Teléfono: 676 24 70 42</a>
+    </p>
+  </div>
 </footer>
