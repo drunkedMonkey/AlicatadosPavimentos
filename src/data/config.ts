@@ -1,9 +1,9 @@
 // Global variables
-export const siteLang = "en-US";
+export const siteLang = "es-ES";
 export const siteCurrency = "USD";
-export const siteDomain = "astropie.com";
-export const siteName = "AstroPie";
-export const siteSlogan = "The best pies in the galaxy!";
+export const siteDomain = "azulejosypavimentos.com";
+export const siteName = "Azulejos y Pavimentos";
+export const siteSlogan = "Calidad y servicio";
 export const themeColor = "#FF0000";
 
 export const phone = {
@@ -12,8 +12,8 @@ export const phone = {
 };
 
 export const email = {
-	href: "mailto:info@astropie.com",
-	label: "info@astropie.com",
+	href: "mailto:eduardolopezruiz77@gmail.com",
+	label: "eduardolopezruiz77@gmail.com",
 };
 
 // export const address = {
