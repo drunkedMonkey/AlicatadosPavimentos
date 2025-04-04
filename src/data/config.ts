@@ -1,7 +1,7 @@
 // Global variables
 export const siteLang = "es-ES";
 export const siteCurrency = "USD";
-export const siteDomain = "azulejosypavimentos.com";
+export const siteDomain = "azulejosypavimentos.info";
 export const siteName = "Azulejos y Pavimentos";
 export const siteSlogan = "Calidad y servicio";
 export const themeColor = "#FF0000";

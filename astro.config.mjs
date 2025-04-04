@@ -11,7 +11,7 @@ import playformInline from "@playform/inline";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://azulejosypavimentos.com",
+	site: "https://azulejosypavimentos.info",
 	base: "/",
 	// trailingSlash: 'always',
 	integrations: [
